@@ -6,11 +6,14 @@ Java Methods
     }
 """
 
+
 def display_message():
     print("Hello World!")
     print("Hello Python Function!")
 
+
 display_message()
+
 
 # Generic
 def value():
@@ -25,6 +28,10 @@ def return_int() -> int:
 
 
 print(return_int())
+
+print('--------------------------------------')
+
+
 
 
 def divide(num1, num2):
@@ -57,6 +64,7 @@ print(minus(5, 2))
 
 print('-------------------------------------------------')
 
+
 def calculate(num1:numbers, num2: numbers, operator:str) -> numbers:
 
     if operator == '-':
@@ -85,3 +93,32 @@ def sum(num1: int, num2: int, num3: int = 0, num4: int = 0) -> int:
 
 
 print(sum(10, 20))
+
+
+class test:
+    def test(self):
+        pass
+
+
+print('----------------------------------------------------------')
+
+
+def concat(a: str, b, c='', d='', e=''):
+    return a + b + c + d + e
+
+
+print(concat('a', 'b', 'c', 'd', 'e'))
+
+
+print(concat('Cydeo', 'School', '1', '5', 'True'))
+
+
+"""
+1. Declaring
+2. parameters 
+3. restricting parameter data type
+4. setting default value to parameter
+5. restricting return type
+
+Dynamic Typing 
+"""
