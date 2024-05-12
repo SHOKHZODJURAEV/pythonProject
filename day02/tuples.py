@@ -55,3 +55,13 @@ for x in range(0, len(days)):
 print('-------------------------------------------')
 for x in reversed(range(0, len(days))):
     print(x)
+
+print('-------------------------------------------')
+
+nested_tuple = ((1,2,3), (4,5,6), (7,8,9))
+print(len(nested_tuple))
+
+for x in nested_tuple:
+    print(x)
+    for y in x:
+        print(y)
