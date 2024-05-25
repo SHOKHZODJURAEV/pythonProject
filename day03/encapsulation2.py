@@ -22,7 +22,10 @@ class Person:
 
         self.__name = name
 
+
 person1 = Person()
+
+
 person1.person_name = 'Daniel'
 print(person1.person_name)
 
