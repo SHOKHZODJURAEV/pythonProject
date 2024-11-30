@@ -1,5 +1,6 @@
 
-git
+name = 'James'
+age = 23
 
 print('My name is ' + name)
 print('My age is ' + str(age))
