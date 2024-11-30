@@ -29,4 +29,6 @@ s = "25"
 s = int(s)
 print(s * 5)
 
+print(len(input('your name')))
+
 

@@ -1,6 +1,7 @@
-
 employee1:dict = {}
 
+
+employee2:dict = {}
 employee1['Name'] = 'John'
 employee1['Age'] = 25
 employee1['Gender'] = 'Male'
@@ -27,20 +28,16 @@ print(employee2)
 
 
 employee2['full_time'] = True
-
 employee2.update({'Gender': 'Female'})
 print(employee2)
-
 employee2.pop('Age')
-
 print(employee2)
-
 employee2.popitem()
 print(employee2)
 
 
 
-print('---------Iterating Dictionary--------------')
+print('---------Iterating Dictionary-------------')
 
 employee3 = {
     'Name': 'Sam',

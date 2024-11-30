@@ -6,7 +6,7 @@ print(name[len(name)-1])
 print(name[-1])
 print(name[-2])
 
-
+print("---------Test01------------------------")
 s = 'Java Programming'
 print(s[5:16])
 print(s[:4])

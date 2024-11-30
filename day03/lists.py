@@ -22,7 +22,8 @@ characters[2:5] = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
 print(characters)
 print('--------------------------------------------------------')
 names = ['John', 'Doe', 'Jim', 'Sally']
-for x in names : print(x)
+for x in names:
+    print(x)
 print('--------------------------------------------------------')
 nums = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 print(nums)
@@ -37,7 +38,6 @@ for i in reversed(range(len(nums))):
     print(nums[i])
 
 print('--------------------Test-----------------------------')
-
 for x in nums[::-1]:
     print(x)
 print('---------777777----------------------------------')
@@ -58,9 +58,7 @@ for i in range(1, 6):
     print(i)
 
 print('--------------------------')
-
 nums = [60,100,90,80,70,60,50]
-
 # nums.sort() # ascending order
 nums.sort(reverse=True)
 print(nums)

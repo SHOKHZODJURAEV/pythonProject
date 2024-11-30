@@ -1,6 +1,5 @@
 if True:
     print('Python Programming')
-
 print('Java Programming')
 
 score = 70
@@ -15,9 +14,7 @@ if(true){
 s = 'Hello World'
 if 'H' and 'W' in s:
     print(s, 'has', 'H and W')
-
 print('------------------------------')
-
 if score >= 60:
     print('passed')
 else:
@@ -29,14 +26,11 @@ if age >= 21:
     result = 'Eligible'
 else:
     result = 'Not Eligible'
-
 print('----------------------------------------')
-
 # Ternary:
 age = 26
 result = 'Eligible' if age >= 21 else 'Not Eligible'
 print(result)
-
 num = 100
 result = None
 if num > 0:
@@ -45,11 +39,8 @@ elif num < 0:
     result = 'negative'
 else:
     result = 'Zero'
-
 print(result)
-
 print('------------------------------------')
-
 result2 = 'Positive' if num > 0 else 'Negative'
 print(result2)
 
@@ -80,3 +71,8 @@ if 0 <= score <= 100:
         print('F')
 else:
     pass
+
+if not 0 > 1:
+    print('Passed')
+else:
+    print('Failed')

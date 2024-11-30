@@ -32,8 +32,6 @@ print(return_int())
 print('--------------------------------------')
 
 
-
-
 def divide(num1, num2):
     return num1 / num2
 
@@ -82,7 +80,6 @@ def calculate(num1:numbers, num2: numbers, operator:str) -> numbers:
 
 print(calculate(5, 2, '+'))
 print(calculate(2.2, 4.5, '*'))
-
 print('-------------------------------------------------------------')
 
 # example of method overloading
@@ -93,7 +90,6 @@ def sum(num1: int, num2: int, num3: int = 0, num4: int = 0) -> int:
 
 
 print(sum(10, 20))
-
 
 class test:
     def test(self):
